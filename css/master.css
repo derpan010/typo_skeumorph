@@ -1,0 +1,59 @@
+#content {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#normal h1 {
+  font-family: "Georgia";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 24pt;
+}
+
+#normal p {
+  text-indent: 1.5em;
+  margin: 0;
+  font-size: 16pt;
+  font-family: "Georgia";
+  line-height: 22pt;
+}
+
+#outdent h1 {
+  font-family: "Times New Roman";
+  font-weight: normal;
+  font-size: 20pt;
+  text-align: center;
+}
+
+#outdent p {
+  text-indent: -1em;
+  text-align: justify;
+  margin: 0;
+  font-size: 16pt;
+  font-family: "Times New Roman";
+  line-height: 22pt;
+}
+
+#fleuron h1 {
+  font-family: "Georgia";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 24pt;
+}
+
+#fleuron p {
+  margin: 0;
+  margin-bottom: -6pt;
+  font-size: 16pt;
+  font-family: 'Libre Baskerville', serif;
+  line-height: 22pt;
+}
+
+#fleuron p:before {
+  position: relative;
+  top: 5pt;
+  font-size: 30pt;
+  content: '\2767';
+}
+
+/* &#10087; */
