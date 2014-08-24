@@ -1,3 +1,8 @@
+section {
+  margin-bottom: 50px;
+  border-bottom: 1px dotted;
+}
+
 #content {
   width: 50%;
   margin: 0 auto;
@@ -56,4 +61,40 @@
   content: '\2767';
 }
 
-/* &#10087; */
+#colcap section {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+
+#colcap h1 {
+  font-family: "Georgia";
+  font-weight: normal;
+  text-align: center;
+  font-size: 24pt;
+}
+
+#colcap p {
+  margin: 0;
+  font-size: 14pt;
+  font-family: "Georgia";
+  line-height: 18pt;
+}
+
+#colcap p:first-of-type:first-line{
+  font-variant: small-caps;
+}
+
+#colcap p:first-of-type:first-letter{
+  font-variant: normal;
+  float: left;
+  font-size: 80px;
+  line-height: 60px;
+  padding-top: 10px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+#colcap  p:not(#first) {
+  text-indent: 2em;
+}
